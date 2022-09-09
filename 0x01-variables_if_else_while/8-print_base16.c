@@ -1,16 +1,23 @@
 #include <stdio.h>
 /* Entry point of the program */
-
+/**
+ * main - entry point
+ * char c and d
+ *
+ * program to print
+ * section header
+ * Return: always 0
+ */
 int main(void)
 {
-char c = '0';
-char d = 'a';
+char c;
+char d;
 
-for (c; c <= '9'; ++c)
+for (c = '0'; c <= '9'; ++c)
 {
 putchar(c);
 }
-for (d; d <= 'f'; d++)
+for (d = 'a'; d <= 'f'; d++)
 {
 putchar(d);
 }
