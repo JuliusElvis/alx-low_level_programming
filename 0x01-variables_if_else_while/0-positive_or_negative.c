@@ -1,13 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
-/* more headers goes there */
-
 /**
  * main - entry point
- * return 0
+ * int n - random number
  *
+ * program to check positive and negative
+ * sectio header
+ * return always 0
  */
 int main(void)
 {
