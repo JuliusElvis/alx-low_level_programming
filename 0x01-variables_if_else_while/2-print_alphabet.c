@@ -1,4 +1,12 @@
 #include <stdio.h>
+/**
+ * main - entry point
+ * char c
+ *
+ * program to check
+ * section header
+ * Return: always 0
+ */
 int main(void)
 {
 	char c;
@@ -7,5 +15,6 @@ int main(void)
 	{
 	putchar(c);
 	}
+	putchar('\n');
 	return (0);
 }
