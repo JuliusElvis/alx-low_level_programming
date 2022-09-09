@@ -5,6 +5,7 @@ int main(void)
 {
 char c = '0';
 char d = 'a';
+
 for (c; c <= '9'; ++c)
 {
 putchar(c);
