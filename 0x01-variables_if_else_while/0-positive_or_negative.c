@@ -4,7 +4,7 @@
 
 /* more headers goes there */
 
-/*
+/**
  * main - entry point
  * return 0
  *
