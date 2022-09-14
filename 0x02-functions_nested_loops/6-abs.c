@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * abs - entry
+ * _abs - entry
  *
  * @n: int
  * Return: always 0
