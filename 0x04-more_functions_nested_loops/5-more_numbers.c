@@ -11,7 +11,11 @@ for (j = 0; j <= 9 ; j++)
 {
 for (i = 0; i <= 14 ; i++)
 {
-_putchar(i + '0');
+	if ( i >= 10)
+	{
+	_putchar((ch / 10) + 48);
+	}
+_putchar((i % 10) + 48);
 }
 putchar('\n');
 }
